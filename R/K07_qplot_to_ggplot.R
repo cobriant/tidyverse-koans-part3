@@ -15,11 +15,9 @@
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # The tidyverse ecosystem has 2 great ways to draw plots: they are qplot() and
-# ggplot(). You've already had some practice drawing qplots in classwork 2.
-# qplot() was designed to be a simplified version of ggplot(), so you already
-# have a head start with learning ggplot()!
+# ggplot().
 
-# What's with the name?
+# What's with the name "ggplot"?
 # The double g's in 'ggplot' stand for the "grammar of graphics". The idea is
 # that you shouldn't have to memorize tons of details about how a plotting tool
 # works in order to create the right visualization for your data. Instead, your
@@ -61,7 +59,7 @@ qplot(data = usdata, x = gdpPercap, y = lifeExp)
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# You've also practiced adding main titles and axis labels to your qplot:
+# Here's how to add main titles and axis labels to your qplot:
 
 qplot(
   data = usdata,
@@ -78,7 +76,8 @@ qplot(
 
 # ggplot(data = __, aes(x = __, y = __)) +
 #   geom_point() +
-#   labs(x = __, y = __, title = __)
+#   labs(x = __, y = __,
+#        title = __)
 
 #@2
 
@@ -88,7 +87,7 @@ qplot(
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# You've also practiced using multiple geoms with a qplot:
+# Here's how to use multiple geoms with a qplot:
 
 qplot(
   data = usdata,
